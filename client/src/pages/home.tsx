@@ -4,6 +4,7 @@ import Features from "@/components/sections/features";
 import Industries from "@/components/sections/industries";
 import Stats from "@/components/sections/stats";
 import Contact from "@/components/sections/contact";
+import Visualizations from "@/components/sections/visualizations";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <main>
         <Hero />
         <Features />
+        <Visualizations />
         <Stats />
         <Industries />
         <Contact />
