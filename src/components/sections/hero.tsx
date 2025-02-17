@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import { ScheduleDemoForm } from "@/components/schedule-demo-form";
 
 export default function Hero() {
   return (
@@ -19,9 +20,7 @@ export default function Hero() {
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Button size="lg">Get Started</Button>
-              <Button size="lg" variant="outline">
-                Schedule Demo
-              </Button>
+              <ScheduleDemoForm />
             </div>
           </motion.div>
           
