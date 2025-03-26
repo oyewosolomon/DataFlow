@@ -31,6 +31,8 @@
     --chart-3: 236 100% 50%;
     --chart-4: 246 100% 50%;
     --chart-5: 256 100% 50%;
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-sans: 'ui-sans-serif', 'system-ui', sans-serif;
   }
  
   * {
@@ -38,6 +40,18 @@
   }
 
   body {
+    font-family: var(--font-montserrat);
     @apply font-sans antialiased bg-background text-foreground;
   }
+
+   /* Make headings slightly bolder */
+   h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+
+  /* Optional: Create a utility class for secondary text */
+  .font-secondary {
+    font-family: var(--font-sans);
+  }
+
 }

@@ -5,6 +5,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Montserrat', 'sans-serif'], // Make Montserrat the default
+        secondary: ['ui-sans-serif', 'system-ui', 'sans-serif'], // For alternative text
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
